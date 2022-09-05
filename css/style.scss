@@ -1,0 +1,32 @@
+@import "_null";
+
+// Основные CSS настройки страницы
+body {
+	// font-family: "Merriweather", serif;
+	// font-family: "Montserrat", sans-serif;
+	// font-family: "Open Sans", sans-serif;
+	// font-family: "Raleway", sans-serif;
+	font-family: "Open Sans", sans-serif;
+	background: #F6F8FA;
+	color: #373A39;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.71;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.main {
+	flex: 1 1 auto;
+}
+.none {
+	display: none !important;
+}
+[class*="__container"] {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0px 10px;
+}
