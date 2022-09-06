@@ -113,6 +113,26 @@ body {
   border-bottom: 1px solid #fcbb08;
 }
 
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.25;
+  letter-spacing: -1.65px;
+  color: #242121;
+  padding-bottom: 14px;
+  position: relative;
+}
+.title::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: #FCBB08;
+  bottom: 0;
+  left: 0;
+}
+
 .header {
   background: url("../img/header-bg.jpg") center center/cover no-repeat;
   min-height: 100vh;
@@ -168,4 +188,27 @@ body {
 }
 .header__icon {
   margin-bottom: 62px;
+}
+
+.about {
+  padding: 150px 0 160px;
+}
+.about__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.about__title {
+  font-size: 48px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+.about__text {
+  max-width: 770px;
+}
+.about__text p:not(:last-child) {
+  margin-bottom: 24px;
 }
