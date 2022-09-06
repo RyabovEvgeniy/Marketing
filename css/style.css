@@ -50,8 +50,8 @@ html {
 /* ================== */
 body {
   font-family: "Open Sans", sans-serif;
-  background: #F6F8FA;
-  color: #373A39;
+  background: #f6f8fa;
+  color: #373a39;
   font-weight: 300;
   font-size: 14px;
   line-height: 1.71;
@@ -80,7 +80,92 @@ body {
 }
 
 [class*=__container] {
-  max-width: 1170px;
+  max-width: 1190px;
   margin: 0 auto;
   padding: 0px 10px;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 38px;
+     -moz-column-gap: 38px;
+          column-gap: 38px;
+  margin-bottom: 5px;
+}
+.menu__list-link {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #373a39;
+  padding: 9px 6px;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.menu__list-link:hover {
+  border-bottom: 1px solid #fcbb08;
+}
+
+.header {
+  background: url("../img/header-bg.jpg") center center/cover no-repeat;
+  min-height: 100vh;
+}
+.header__top {
+  background-color: #fff;
+}
+.header__top-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 29px;
+}
+.header__content {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+.header__content-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: calc(100vh - 93px);
+}
+.header__title {
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 1.22;
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: 19px;
+  padding-top: 75px;
+}
+.header__subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.37;
+  letter-spacing: 2.74286px;
+  color: #fcbb08;
+  margin-bottom: auto;
+}
+.header__icon {
+  margin-bottom: 62px;
 }
