@@ -89,7 +89,7 @@ body {
 		position: absolute;
 		width: 60px;
 		height: 4px;
-		background-color: #FCBB08;;
+		background-color: #fcbb08;
 		bottom: 0;
 		left: 0;
 	}
@@ -164,6 +164,7 @@ body {
 // About
 .about {
 	padding: 150px 0 160px;
+	background-color: #f6f8fa;
 	// .about__container
 
 	&__container {
@@ -192,5 +193,133 @@ body {
 				margin-bottom: 24px;
 			}
 		}
+	}
+}
+
+// Expertise
+.expertise {
+	padding: 140px 0 160px;
+
+	// .expertise__container
+
+	&__container {
+	}
+
+	// .expertise__title
+
+	&__title {
+		margin-bottom: 90px;
+	}
+
+	// .expertise__inner
+
+	&__inner {
+		display: flex;
+		column-gap: 30px;
+		margin-bottom: 110px;
+	}
+
+	// .expertise__info
+
+	&__info {
+		width: 370px;
+		flex: none;
+		margin-top: 10px;
+	}
+
+	// .expertise__info-item
+
+	&__info-item {
+		border-top: 2px solid #1d1d1d;
+		padding: 2px 0 28px;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 1.82;
+		letter-spacing: 1px;
+		color: #1d1d1d;
+		position: relative;
+		span {
+			display: block;
+			position: absolute;
+			right: 0;
+			top: 0;
+			margin-right: 7px;
+			&::before {
+				content: "";
+				position: absolute;
+				height: 2px;
+				background-color: #f0f0f0;
+				right: -7px;
+				top: -2px;
+				width: 100%;
+			}
+		}
+	}
+
+	// .expertise__text
+
+	&__text {
+		max-width: 770px;
+		p {
+			&:not(:last-child) {
+				margin-bottom: 25px;
+			}
+		}
+	}
+
+	// .expertise__items
+
+	&__items {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	// .expertise__item
+
+	&__item {
+		width: 375px;
+		padding-left: 80px;
+		position: relative;
+		&::before {
+			position: absolute;
+			content: "";
+			width: 50px;
+			height: 50px;
+			top: 0;
+			left: 0;
+		}
+	}
+
+	&__item--desing::before {
+		background-image: url(../img/desing-icon.svg);
+	}
+
+	&__item--dev::before {
+		background-image: url(../img/monitor-icon.svg);
+	}
+
+	&__item--marketing::before {
+		background-image: url(../img/speaker-icon.svg);
+	}
+
+	// .expertise__item-title
+
+	&__item-title {
+		font-family: "Raleway", sans-serif;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.43;
+		letter-spacing: 4.2875px;
+		color: #333333;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+	}
+
+	// .expertise__item-text
+
+	&__item-text {
+		color: #777777;
+		// width: 285px;
 	}
 }

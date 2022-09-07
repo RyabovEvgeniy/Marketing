@@ -128,7 +128,7 @@ body {
   position: absolute;
   width: 60px;
   height: 4px;
-  background-color: #FCBB08;
+  background-color: #fcbb08;
   bottom: 0;
   left: 0;
 }
@@ -192,6 +192,7 @@ body {
 
 .about {
   padding: 150px 0 160px;
+  background-color: #f6f8fa;
 }
 .about__inner {
   display: -webkit-box;
@@ -211,4 +212,103 @@ body {
 }
 .about__text p:not(:last-child) {
   margin-bottom: 24px;
+}
+
+.expertise {
+  padding: 140px 0 160px;
+}
+.expertise__title {
+  margin-bottom: 90px;
+}
+.expertise__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  margin-bottom: 110px;
+}
+.expertise__info {
+  width: 370px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  margin-top: 10px;
+}
+.expertise__info-item {
+  border-top: 2px solid #1d1d1d;
+  padding: 2px 0 28px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.82;
+  letter-spacing: 1px;
+  color: #1d1d1d;
+  position: relative;
+}
+.expertise__info-item span {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 7px;
+}
+.expertise__info-item span::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #f0f0f0;
+  right: -7px;
+  top: -2px;
+  width: 100%;
+}
+.expertise__text {
+  max-width: 770px;
+}
+.expertise__text p:not(:last-child) {
+  margin-bottom: 25px;
+}
+.expertise__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.expertise__item {
+  width: 375px;
+  padding-left: 80px;
+  position: relative;
+}
+.expertise__item::before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+.expertise__item--desing::before {
+  background-image: url(../img/desing-icon.svg);
+}
+.expertise__item--dev::before {
+  background-image: url(../img/monitor-icon.svg);
+}
+.expertise__item--marketing::before {
+  background-image: url(../img/speaker-icon.svg);
+}
+.expertise__item-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 4.2875px;
+  color: #333333;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.expertise__item-text {
+  color: #777777;
 }
