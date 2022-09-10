@@ -50,7 +50,7 @@ html {
 /* ================== */
 body {
   font-family: "Open Sans", sans-serif;
-  background: #f6f8fa;
+  background: #fff;
   color: #373a39;
   font-weight: 300;
   font-size: 14px;
@@ -311,4 +311,19 @@ body {
 }
 .expertise__item-text {
   color: #777777;
+}
+
+.magic {
+  background: #F6F8FA url("../img/magic-bg.jpg") left 82%/50% no-repeat;
+}
+.magic__inner {
+  padding: 100px 0 214px;
+  max-width: 470px;
+  margin-left: auto;
+}
+.magic__title {
+  margin-bottom: 67px;
+}
+.magic__text p:not(:last-child) {
+  margin-bottom: 25px;
 }

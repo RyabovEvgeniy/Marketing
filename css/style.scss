@@ -7,7 +7,7 @@ body {
 	// font-family: "Open Sans", sans-serif;
 	// font-family: "Raleway", sans-serif;
 	font-family: "Open Sans", sans-serif;
-	background: #f6f8fa;
+	background: #fff;
 	color: #373a39;
 	font-weight: 300;
 	font-size: 14px;
@@ -323,3 +323,38 @@ body {
 		// width: 285px;
 	}
 }
+
+// Magic
+.magic {
+	background: #F6F8FA url('../img/magic-bg.jpg') left 82% / 50% no-repeat;
+	
+	// .magic__container
+	
+	&__container {
+	}
+	
+	// .magic__inner
+	
+	&__inner {
+		padding: 100px 0 214px;
+		max-width: 470px;
+		margin-left: auto;
+	}
+
+	// .magic__title
+
+	&__title {
+		margin-bottom: 67px;
+	}
+
+	// .magic__text
+
+	&__text {
+		p {
+			&:not(:last-child) {
+				margin-bottom: 25px;
+			}
+		}
+	}
+}
+
