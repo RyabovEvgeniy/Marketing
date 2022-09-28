@@ -658,7 +658,91 @@ body {
 
 	&__position {
 		font-size: 12px;
-line-height: 1.33;
+		line-height: 1.33;
 	}
 }
 
+// Pricing
+.pricing {
+	background-color: #f6f8fa;
+	padding: 145px 0 160px;
+
+	// .pricing__container
+
+	&__container {
+	}
+
+	// .pricing__title
+
+	&__title {
+		margin-bottom: 90px;
+	}
+
+	// .pricing__items
+
+	&__items {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+	}
+
+	// .pricing__item
+
+	&__item {
+		width: 370px;
+		background-color: #fff;
+		padding: 24px 25px 53px;
+		li {
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 1.37;
+			color: #242121;
+			&:not(:last-child) {
+				margin-bottom: 30px;
+			}
+		}
+		.pricing__item-name {
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 1.57;
+			color: #242121;
+			text-align: left;
+			margin-bottom: 8px;
+		}
+		.pricing__item-num {
+			font-weight: 300;
+			font-size: 80px;
+			line-height: 1.36;
+			color: #242121;
+			margin-bottom: 51px;
+		}
+	}
+
+	// .pricing__item-name
+
+	&__item-name {
+	}
+
+	// .pricing__item-num
+
+	&__item-num {
+		sup {
+			font-weight: 300;
+			font-size: 40px;
+			line-height: 1.35;
+		}
+	}
+
+	// .pricing__item-link
+
+	&__item-link {
+		font-family: "Montserrat", sans-serif;
+		display: block;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.21;
+		letter-spacing: 1.2px;
+		color: #242121;
+		margin-top: 70px;
+	}
+}
