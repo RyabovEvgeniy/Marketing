@@ -541,3 +541,31 @@ body {
   height: 10px;
   opacity: 1;
 }
+
+.team {
+  padding: 120px 0 132px;
+}
+.team__title {
+  margin-bottom: 102px;
+}
+.team__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+.team__name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #333333;
+  margin: 35px 0 12px;
+}
+.team__position {
+  font-size: 12px;
+  line-height: 1.33;
+}
