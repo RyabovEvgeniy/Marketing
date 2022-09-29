@@ -847,3 +847,92 @@ body {
 		background: #242121;
 	}
 }
+
+// Footer
+.footer {
+	// .footer__top
+
+	&__top {
+		background: #333333;
+		padding: 110px 10px 60px;
+		text-align: center;
+	}
+
+	// .footer__logo
+
+	&__logo {
+		display: inline-block;
+		padding: 0 35px 4px;
+		border-bottom: 2px solid #fcbb08;
+		margin-bottom: 73px;
+	}
+
+	// .footer__social-list
+
+	&__social-list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 65px;
+	}
+
+	// .footer__social-item
+
+	&__social-item {
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
+	}
+
+	// .footer__social-link
+
+	&__social-link {
+		font-family: "Montserrat", sans-serif;
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 1.25;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		color: #fff;
+	}
+
+	// .footer__contacts
+
+	&__contacts {
+		font-weight: 400;
+		line-height: 2.28;
+		color: #fff;
+		margin-bottom: 57px;
+		a {
+			display: block;
+			margin: 10px 0;
+		}
+	}
+
+	// .footer__phone
+
+	&__phone {
+	}
+
+	// .footer__mail
+
+	&__mail {
+	}
+
+	// .footer__copy
+
+	&__copy {
+		background: #2a2c2b;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 1.33;
+		color: #cccccc;
+		text-align: center;
+		padding: 43px 10px 41px;
+	}
+}
+.address {
+}
+.go-top {
+	display: inline-block;
+}
