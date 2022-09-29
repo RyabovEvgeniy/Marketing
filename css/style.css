@@ -645,3 +645,106 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+.connection {
+  padding: 145px 0 160px;
+  background: url("../img/connection-bg.jpg") right 65%/40% no-repeat;
+}
+.connection__title {
+  margin-bottom: 78px;
+}
+.connection__form {
+  max-width: 570px;
+}
+.connection__form-input {
+  display: block;
+  width: 100%;
+  padding: 16px 5px;
+  border-bottom: #373a39 solid 2px;
+  margin-bottom: 16px;
+  outline: none;
+}
+.connection__form-input::-webkit-input-placeholder {
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+}
+.connection__form-input::-moz-placeholder {
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+}
+.connection__form-input:-ms-input-placeholder {
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+}
+.connection__form-input::-ms-input-placeholder {
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+}
+.connection__form-input::placeholder {
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+}
+.connection__form-textarea {
+  display: block;
+  min-width: 100%;
+  min-height: 140px;
+  border-bottom: #373a39 solid 2px;
+  margin-top: 37px;
+  outline: none;
+  margin-bottom: 40px;
+  resize: none;
+}
+.connection__form-textarea::-webkit-input-placeholder {
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+  text-transform: uppercase;
+}
+.connection__form-textarea::-moz-placeholder {
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+  text-transform: uppercase;
+}
+.connection__form-textarea:-ms-input-placeholder {
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+  text-transform: uppercase;
+}
+.connection__form-textarea::-ms-input-placeholder {
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+  text-transform: uppercase;
+}
+.connection__form-textarea::placeholder {
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+  text-transform: uppercase;
+}
+.connection__form-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 1.18;
+  letter-spacing: 2px;
+  color: #ffffff;
+  padding: 17px 70px 15px;
+  background: #242121;
+}
