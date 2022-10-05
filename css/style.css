@@ -85,6 +85,9 @@ body {
   padding: 0px 10px;
 }
 
+.menu__burger-btn {
+  display: none;
+}
 .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;

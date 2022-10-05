@@ -41,6 +41,12 @@ body {
 
 // Menu
 .menu {
+
+	// .menu__burger-btn
+	&__burger-btn{
+		display: none;
+	}
+
 	// .menu__list
 
 	&__list {
@@ -512,6 +518,8 @@ body {
 	}
 }
 
+
+// Blockquote
 .blockquote {
 	max-width: 650px;
 	margin: 0 auto;
